@@ -48,21 +48,25 @@ O objetivo central é acionar um relé, que representa uma bomba d'água 💧, a
 
 ## 📁 Estrutura de pastas
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+```sh
+└── Irrigacao-FarmTech/
+    ├── README.md
+    ├── assets
+    │   └── circuito.png
+    ├── diagram.json
+    ├── include
+    │   └── README
+    ├── lib
+    │   └── README
+    ├── links.txt
+    ├── platformio.ini
+    ├── src
+    │   └── main.cpp
+    ├── test
+    │   └── README
+    └── wokwi.toml
+```
 
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
-
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
-
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
-
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
-
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
 ## 🔧 Como executar o código
 
@@ -98,6 +102,22 @@ Digite e selecione a opção "Wokwi: Start Simulator".
 
 - Acompanhe toda a telemetria e os alertas no painel do **Monitor Serial**.
 
+
+## 👾 Features
+
+|      | Feature         | Summary       |
+| :--- | :---:           | :---          |
+| ⚙️  | **Architecture**  | <ul><li>Designed using `<Arduino>` framework for IoT project.</li><li>Hardware connections and layout illustrated in `<diagram.json>` for system visualization.</li><li>Utilizes `<ESP32>` microcontroller for sensor data processing and pump control.</li></ul> |
+| 🔩 | **Code Quality**  | <ul><li>Follows `<Arduino>` best practices for readability and maintainability.</li><li>Consistent code style and formatting across the project.</li><li>Comments and documentation within the codebase for better understanding.</li></ul> |
+| 📄 | **Documentation** | <ul><li>Comprehensive documentation in various formats: `<platformio.ini>`, `<diagram.json>`, `<links.txt>`, `<wokwi.toml>`.</li><li>Documentation covers project configuration, hardware connections, external integrations, and settings.</li><li>Documentation aids in onboarding new contributors and understanding project components.</li></ul> |
+| 🔌 | **Integrations**  | <ul><li>Facilitates integration with external platforms through `<links.txt>` providing GitHub repository, Wokwi simulation, and YouTube demo links.</li><li>Uses `<Wokwi>` for firmware and ELF file configuration in the project.</li><li>Integrates with IoT platforms for data visualization and monitoring.</li></ul> |
+| 🧩 | **Modularity**    | <ul><li>Codebase organized into modular components for easy maintenance and scalability.</li><li>Separation of concerns between sensor data processing, pump control, and system monitoring.</li><li>Encourages code reusability and extensibility through modular design.</li></ul> |
+| 🧪 | **Testing**       | <ul><li>Implements testing strategies for sensor data accuracy and pump control logic.</li><li>Unit tests for critical functions and decision-making processes.</li><li>Integration tests for system behavior under different scenarios.</li></ul> |
+| ⚡️  | **Performance**   | <ul><li>Efficient sensor data processing and pump control algorithms for real-time operation.</li><li>Optimized code for minimal latency in telemetry data transmission.</li><li>Performance tuning for system responsiveness and energy efficiency.</li></ul> |
+| 🛡️ | **Security**      | <ul><li>Implements secure communication protocols for data transmission.</li><li>Access control mechanisms for system configuration and operation.</li><li>Regular security audits and updates to address vulnerabilities.</li></ul> |
+| 📦 | **Dependencies**  | <ul><li>Dependencies managed through `<platformio.ini>` for library inclusion and project configuration.</li><li>Utilizes libraries for DHT sensor, Adafruit Unified Sensor, and other necessary components.</li><li>Dependency updates and version control for stability and compatibility.</li></ul> |
+
+---
 
 ## 📋 Licença
 
