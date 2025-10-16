@@ -8,6 +8,13 @@
 
 # Sensor de Irrigação FarmTech Solutions
 
+<p align="center">
+<a href= "https://youtu.be/bn1UaVN9CCs">Funcionamento do Circuito no Youtube</a>
+</p>
+<p align="center">
+<img src="./assets/circuito.png" alt="Demonstração do circuito em Imagem" border="0" width=80% >
+</p>
+
 ##  Grupo 30
 
 ## 👨‍🎓 Integrantes: 
